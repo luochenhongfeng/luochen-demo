@@ -9,7 +9,11 @@ define(function (require, exports, module) {
                 if (result){
                     window.location.href = basePath + "/list";
                 }
-            });
+            },"json");
+        });
+
+        $("#cancelBtn").click(function(){
+            window.location.href = basePath + "/list";
         });
     });
 });

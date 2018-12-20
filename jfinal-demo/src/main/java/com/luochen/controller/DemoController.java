@@ -44,7 +44,7 @@ public class DemoController extends MyController {
                 .set("sex", getPara("sex"))
                 .set("age", getPara("age"))
                 .update();
-        render(new JsonRender(false).forIE());
+        render(new JsonRender(result).forIE());
     }
 
     public void delete(){

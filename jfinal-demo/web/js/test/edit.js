@@ -10,7 +10,7 @@ define(function (require, exports, module) {
                 if (result){
                     window.location.href = basePath + "/list";
                 }
-            });
+            },"json");
         });
 
         $("#backBtn").click(function(){
