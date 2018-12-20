@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="test-seajs:war">
-    <output-path>$PROJECT_DIR$/test-seajs/target</output-path>
-    <root id="archive" name="test-seajs-1.0.war">
-      <element id="artifact" artifact-name="test-seajs:war exploded" />
-    </root>
-  </artifact>
-</component>
